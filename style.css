@@ -1,0 +1,40 @@
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+}
+
+.top {
+  background-image: url(images/2-pink-blue.avif);
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.alpha {
+  position: absolute;
+  bottom: 250px;
+  left: 40px;
+}
+
+.beta {
+  position: absolute;
+  bottom: 200px;
+  left: 40px;
+}
+
+.camera {
+  background-image: url(images/4-vintage-cameras.avif);
+}
+
+.contact {
+  background-image: url(images/20-old-phone.avif);
+}
