@@ -3,7 +3,6 @@ body,
 a {
   color: white;
   scroll-behavior: smooth;
-  /* height: 100vh; */
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -106,6 +105,22 @@ h1 {
 .more a:hover {
   color: black;
   background-color: white;
+}
+
+.beta {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin: 10px 30px;
+  gap: 10px;
+}
+
+.socials {
+  border-radius: 50%;
+  overflow: hidden;
+  /* gap: 10px; */
+  /* I cannot figure out why the X logo is clipping at the bottom */
+  /* Why does gap in .socials not add a gap */
 }
 
 footer {
