@@ -1,7 +1,5 @@
 html,
 body,
-h1,
-h2,
 a {
   color: white;
   scroll-behavior: smooth;
@@ -20,7 +18,7 @@ a {
   justify-content: space-between;
   position: fixed;
   z-index: 1;
-  width: 55%;
+  width: 40lh;
   padding: 2%;
 }
 
@@ -68,6 +66,8 @@ h1 {
   margin-left: 3rem;
   padding-bottom: 10px;
   letter-spacing: 1px;
+  width: fit-content;
+  box-sizing: content-box;
   /* added 1px spacing as the "T" and "P" were overlapping */
 }
 
@@ -92,4 +92,25 @@ h1 {
   margin-left: 3rem;
   padding-bottom: 10px;
   width: 55%;
+}
+
+.more a {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  padding: 1em 4em 1em 2em;
+  margin-right: 1em;
+  border: 2px solid white;
+}
+
+.more a:hover {
+  color: black;
+  background-color: white;
+}
+
+footer {
+  color: #555;
+  background-color: rgb(1, 54, 54);
+  text-align: center;
+  padding: 1em;
 }
